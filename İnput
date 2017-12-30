@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication18
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sayi1, sayi2, toplam;
+
+            Console.Write("Lütfen 1. sayı Giriniz = ");
+
+            sayi1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Lütfen 2. sayı Giriniz = ");
+
+            sayi2 = int.Parse(Console.ReadLine());
+
+            toplam = sayi1 + sayi2;
+
+            Console.WriteLine("Girilen iki sayının toplamı = {0}", toplam);
+
+            Console.ReadKey();
+           
+        }
+    }
+}
